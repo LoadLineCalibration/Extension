@@ -1,0 +1,28 @@
+;=============================================================================
+; ExtensionAbiAliases.def
+;
+; Link-time ABI aliases for symbols whose C++ access specifier had to be
+; opened in the reconstructed headers.  The original Extension.dll exported
+; private/protected decorated names (AAE/IAE); the reconstructed build may
+; compile the same methods as public names (QAE).
+;
+; This file is intentionally alias-only.  The full original import-library
+; definition used by _BuildOriginalAbiLib_Extension.bat lives in
+; ExtensionOriginalExports.def.
+;=============================================================================
+
+LIBRARY Extension
+
+EXPORTS
+    ?AddChild@XWindow@@AAEXPAV1@H@Z=?AddChild@XWindow@@QAEXPAV1@H@Z
+    ?ChangeConfiguration@XWindow@@AAEXXZ=?ChangeConfiguration@XWindow@@QAEXXZ
+    ?ChangeStyleTree@XWindow@@AAEXXZ=?ChangeStyleTree@XWindow@@QAEXXZ
+    ?CheckFocusWindow@XWindow@@AAEXXZ=?CheckFocusWindow@XWindow@@QAEXXZ
+    ?CheckGrabbedWindow@XWindow@@AAEXXZ=?CheckGrabbedWindow@XWindow@@QAEXXZ
+    ?ClipTree@XWindow@@AAEXXZ=?ClipTree@XWindow@@QAEXXZ
+    ?DrawTree@XWindow@@AAEXPAVUCanvas@@PAVUTexture@@MHH@Z=?DrawTree@XWindow@@QAEXPAVUCanvas@@PAVUTexture@@MHH@Z
+    ?InvokeSensitivityChange@XWindow@@AAEXH@Z=?InvokeSensitivityChange@XWindow@@QAEXH@Z
+    ?InvokeTimers@XWindow@@AAEXM@Z=?InvokeTimers@XWindow@@QAEXM@Z
+    ?InvokeVisibilityChange@XWindow@@AAEXH@Z=?InvokeVisibilityChange@XWindow@@QAEXH@Z
+    ?RecomputeInitTree@XWindow@@AAEXH@Z=?RecomputeInitTree@XWindow@@QAEXH@Z
+    ?RemoveChild@XWindow@@AAEXPAV1@@Z=?RemoveChild@XWindow@@QAEXPAV1@@Z

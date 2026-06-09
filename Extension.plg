@@ -1,0 +1,127 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Extension - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPBC5.tmp" with contents
+[
+/nologo /Zp4 /MD /W4 /WX /vd0 /GX /O2 /I ".\Inc" /I ".\Src" /I ".\Classes" /I ".\Textures" /I "Z:\DeusEx_RTX" /I "Z:\DeusEx_RTX\System" /I "Z:\DeusEx_RTX\Extension\Inc" /I "Z:\DeusEx_RTX\Extension\Src" /I "Z:\DeusEx_RTX\Extension\Classes" /I "Z:\DeusEx_RTX\Extension\Textures" /I "Z:\DeusEx_RTX\Extension\SDK" /I "Z:\DeusEx_RTX\Extension\SDK\Core\Inc" /I "Z:\DeusEx_RTX\Extension\SDK\Core\Src" /I "Z:\DeusEx_RTX\Extension\SDK\Engine\Inc" /I "Z:\DeusEx_RTX\Extension\SDK\Engine\Src" /D "NDEBUG" /D ThisPackage=Extension /D "WIN32" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D EXTENSION_API=__declspec(dllexport) /D "EXTENSION_EXPORTS" /D EXTENSION_ENABLE_NATIVE_WRAPPER_BATCH01=1 /FR"C:\DX_ExtBuild\Obj/" /Fo"C:\DX_ExtBuild\Obj/" /Fd"C:\DX_ExtBuild\Obj/" /FD /c 
+"Z:\DeusEx_RTX\Extension\Src\ExtensionNativeRegistration_All.cpp"
+"Z:\DeusEx_RTX\Extension\Src\ExtensionNativeWrappers_All.cpp"
+"Z:\DeusEx_RTX\Extension\Src\ExtensionPackage_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XBorderWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XButtonToggleCheckbox_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XClipWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XComputerWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XEditWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XExtString_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XExtensionObject_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XFlagBase_Flags_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XGC_Core_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XGC_FontHelpers_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XGC_Text_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XGC_TilesAndActors_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XLargeTextWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XListWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XModalTabRadio_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XPlayerInputGameBridge_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XRootWindow_Integration_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XScaleManagerWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XScaleWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XScrollAreaWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XTextLogWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XTextWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XTileWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XViewportWindow_Reconstructed.cpp"
+"Z:\DeusEx_RTX\Extension\Src\XWindow_Core_Reconstructed.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPBC5.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPBC6.tmp" with contents
+[
+Z:\DeusEx_RTX\Extension\SDK\Core\Lib\Core.lib Z:\DeusEx_RTX\Extension\SDK\Engine\Lib\Engine.lib /nologo /dll /incremental:no /pdb:"C:\DX_ExtBuild/Extension.pdb" /machine:I386 /def:".\Src\ExtensionAbiAliases.def" /out:"C:\DX_ExtBuild/Extension.dll" /implib:"C:\DX_ExtBuild/Extension.lib" /libpath:"Z:\DeusEx_RTX\System" /libpath:"Z:\DeusEx_RTX\Extension\SDK\Core\Lib" /libpath:"Z:\DeusEx_RTX\Extension\SDK\Engine\Lib" 
+C:\DX_ExtBuild\Obj\ExtensionNativeRegistration_All.obj
+C:\DX_ExtBuild\Obj\ExtensionNativeWrappers_All.obj
+C:\DX_ExtBuild\Obj\ExtensionPackage_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XBorderWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XButtonToggleCheckbox_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XClipWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XComputerWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XEditWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XExtString_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XExtensionObject_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XFlagBase_Flags_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XGC_Core_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XGC_FontHelpers_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XGC_Text_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XGC_TilesAndActors_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XLargeTextWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XListWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XModalTabRadio_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XPlayerInputGameBridge_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XRootWindow_Integration_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XScaleManagerWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XScaleWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XScrollAreaWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XTextLogWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XTextWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XTileWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XViewportWindow_Reconstructed.obj
+C:\DX_ExtBuild\Obj\XWindow_Core_Reconstructed.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPBC6.tmp"
+<h3>Output Window</h3>
+Compiling...
+ExtensionNativeRegistration_All.cpp
+ExtensionNativeWrappers_All.cpp
+ExtensionPackage_Reconstructed.cpp
+XBorderWindow_Reconstructed.cpp
+XButtonToggleCheckbox_Reconstructed.cpp
+XClipWindow_Reconstructed.cpp
+XComputerWindow_Reconstructed.cpp
+XEditWindow_Reconstructed.cpp
+XExtString_Reconstructed.cpp
+XExtensionObject_Reconstructed.cpp
+XFlagBase_Flags_Reconstructed.cpp
+XGC_Core_Reconstructed.cpp
+XGC_FontHelpers_Reconstructed.cpp
+XGC_Text_Reconstructed.cpp
+XGC_TilesAndActors_Reconstructed.cpp
+XLargeTextWindow_Reconstructed.cpp
+XListWindow_Reconstructed.cpp
+XModalTabRadio_Reconstructed.cpp
+XPlayerInputGameBridge_Reconstructed.cpp
+XRootWindow_Integration_Reconstructed.cpp
+Generating Code...
+Compiling...
+XScaleManagerWindow_Reconstructed.cpp
+XScaleWindow_Reconstructed.cpp
+XScrollAreaWindow_Reconstructed.cpp
+XTextLogWindow_Reconstructed.cpp
+XTextWindow_Reconstructed.cpp
+XTileWindow_Reconstructed.cpp
+XViewportWindow_Reconstructed.cpp
+XWindow_Core_Reconstructed.cpp
+Generating Code...
+Linking...
+   Creating library C:\DX_ExtBuild/Extension.lib and object C:\DX_ExtBuild/Extension.exp
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPBCA.bat" with contents
+[
+@echo off
+.\_PostBuildInstall_Extension.bat
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPBCA.bat"
+Installing Extension.dll to Z:\DeusEx_RTX\System
+Installing Extension.dll to Z:\DeusEx_RTX\System
+Скопировано файлов:         1.
+Installed Extension.dll
+
+
+
+<h3>Results</h3>
+Extension.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
