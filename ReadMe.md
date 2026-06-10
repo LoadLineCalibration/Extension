@@ -78,6 +78,20 @@ I used VMware Workstation with a Windows XP VM.
 
 Other virtual machines should also work, as long as they can run Windows XP / Windows 2000 and provide access to the shared Deus Ex project directory.
 
+## Important
+You'll need some files from DeusEx native SDK to compile this source.
+Take Engine and Core directories from DxHeaders.zip and copy them to:
+
+```
+Extension\SDK\
+```
+
+Then take engine.lib and Core.lib from DxLibs.zip and place them to:
+```text
+Extension\SDK\Core\lib\
+Extension\SDK\Engine\lib\
+```
+
 ## Disclaimer
 
 This source is provided as-is.
